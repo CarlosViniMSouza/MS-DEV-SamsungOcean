@@ -6,7 +6,7 @@ namespace dotnetcore
         static void Main(string[] args) {
             
             /*
-            Aula: 
+            // Aula: 
 
             Console.Write("Seu nome, por favor: ");
 
@@ -18,12 +18,12 @@ namespace dotnetcore
             */
 
             /*
-            Desafio 1:
+            // Desafio 1:
 
-            var valorConta = 100.00;
-            var valorTaxa = 0.1;
+            var valorConta = 130.00;
+            var valorTaxa = 0.15;
             var valorCusto = valorConta + (valorConta*valorTaxa);
-            Console.WriteLine("Valor da conta final: " + valorCusto);
+            Console.WriteLine($"Valor da conta final: R{valorCusto:C}");
             */
         }
     }
