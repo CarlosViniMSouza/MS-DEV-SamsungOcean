@@ -25,6 +25,25 @@ namespace dotnetcore
             var valorCusto = valorConta + (valorConta*valorTaxa);
             Console.WriteLine($"Valor da conta final: R{valorCusto:C}");
             */
+
+            /* DICA:
+
+            Console.WriteLine("Digite algum numero: ");
+
+            var num = Console.ReadLine();
+
+            var numero = int.Parse(num);
+
+            Console.WriteLine("O dobro daquele numero eh: " + numero*2);
+            */
+
+            Console.Write("Digite algum numero: ");
+
+            var num = Console.ReadLine();
+
+            var numero = int.Parse(num);
+
+            Console.WriteLine("O dobro daquele numero eh: " + numero*2);
         }
     }
 }
