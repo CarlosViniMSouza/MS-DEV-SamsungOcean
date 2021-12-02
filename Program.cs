@@ -37,6 +37,7 @@ namespace dotnetcore
             Console.WriteLine("O dobro daquele numero eh: " + numero*2);
             */
 
+            /*
             Console.Write("Digite algum numero: ");
 
             var num = Console.ReadLine();
@@ -44,6 +45,21 @@ namespace dotnetcore
             var numero = int.Parse(num);
 
             Console.WriteLine("O dobro daquele numero eh: " + numero*2);
+            */
+
+            int hours = 23;
+
+            if(hours < 12) {
+                Console.WriteLine("Sao " + hours + " da manha!");
+            } 
+            
+            else if(hours > 12 && hours < 18) {
+                Console.WriteLine("Sao " + (hours - 12) + " da tarde!");
+            }
+
+            else {
+                Console.WriteLine("Sao " + (hours - 12) + " da noite!");
+            }
         }
     }
 }
